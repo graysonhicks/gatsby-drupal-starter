@@ -19,3 +19,14 @@ After the initial install, if everything works, you can change the endpoint to p
 ## Customize Endpoint
 
 The endpoint in this starter is `https://live-contentacms.pantheonsite.io/api` by default, which is a courtesy endpoint for learning about this process.  The endpoint where you want to retrieve your Drupal data is set in the [`gatsby-config.js`](gatsby-config.js) file.
+
+### Endpoint Requirements
+
+Any endpoint that is defined as a `gatsby-source-drupal` in `gatsby-config.js` must:
+
+1. Be a Drupal site (the `gatsby-source-drupal` plugin does special parsing with this assumption)
+2. Have the [Drupal JSONAPI module](https://www.drupal.org/project/jsonapi) installed.
+
+### Endpoint Information
+
+This repo does not control or cover how to build your Drupal endpoint.  To see the JSON that is returned, [hit the API directly](https://live-contentacms.pantheonsite.io/api) in your browser (a JSON viewer is helpful for readability here)
