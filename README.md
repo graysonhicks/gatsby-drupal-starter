@@ -37,7 +37,7 @@ To explore it in GraphQL, use Gatsby's GraphiQL tool by going to http://localhos
 
 ### Custom Endpoint Data
 
-When you choose to hit your own endpoint, [here](https://github.com/graysonhicks/gatsby-drupal-starter) is an example of a Drupal 8 endpoint with JSONAPI installed.  This example only has one `Article` as its content.
+When you choose to hit your own endpoint, [here](http://dev-gatsby-drupal.pantheonsite.io/jsonapi/) is an example of a Drupal 8 endpoint with JSONAPI installed.  This example only has one `Article` as its content.
 
 ## Custom Design
 
