@@ -10,7 +10,7 @@ After the initial install, if everything works, you can change the endpoint to p
 
 ## Install
 
-1. Clone this repo with: `git clone git@github.com:graysonhicks/gatsby-drupal-starter.git`
+1. Clone this repo and start new Gatsby project with: `gatsby new [YOUR-SITE] git@github.com:graysonhicks/gatsby-drupal-starter.git`
 2. `cd` into `gatsby-drupal-starter`
 3. Run `npm install`
 4. Run `gatsby develop`
