@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Gatsby Drupal Starter',
   },
+  pathPrefix: `/gatsby-drupal-starter`,
   plugins: [
     'gatsby-plugin-react-helmet',
     {
