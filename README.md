@@ -12,9 +12,8 @@ After the initial install, if everything works, you can change the endpoint to p
 
 1. Clone this repo and start new Gatsby project with: `gatsby new [YOUR-SITE] git@github.com:graysonhicks/gatsby-drupal-starter.git`
 2. `cd` into `gatsby-drupal-starter`
-3. Run `npm install`
-4. Run `gatsby develop`
-5. Go to `localhost:8000` and you should see a list of recipe titles
+3. Run `gatsby develop`
+4. Go to `localhost:8000` and you should see a list of recipe titles
 
 ## Custom Endpoint
 
