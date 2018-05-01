@@ -33,13 +33,15 @@ This repo does not control or cover how to build your Drupal endpoint.
 
 To see the JSON that is returned, [hit the API directly](https://live-contentacms.pantheonsite.io/api) in your browser (a JSON viewer is helpful for readability here)
 
+To explore it in GraphQL, use Gatsby's GraphiQL tool by going to http://localhost:8000/___graphql.  Once there, below the commented instructions, type a pair of `{ }` keep your cursor between them, and hit `ctrl + space` to see an autocomplete list of data available for querying.  Continue to use this `{ }` + `ctrl + space` method to explore the many nested levels of the data.
+
 ### Custom Endpoint Data
 
 When you choose to hit your own endpoint, [here](https://github.com/graysonhicks/gatsby-drupal-starter) is an example of a Drupal 8 endpoint with JSONAPI installed.  This example only has one `Article` as its content.
 
 ## Custom Design
 
-This repo is basebones when it comes to styles.  You can leverage all of Gatsby's design patterns (use your Drupal data, Markdown, React components) along with whatever style library (vanilla CSS, styled-components, etc) to being building your site.
+This repo is basebones when it comes to styles.  You can leverage all of Gatsby's data sources (use your Drupal data, Markdown, React components) along with whatever style library (vanilla CSS, styled-components, etc) to begin building your site.
 
 If you think you understand the use of Gatsby `source` plugins, you can always try [another Gatsby starter](https://www.gatsbyjs.org/docs/gatsby-starters/#gatsby-starters) and add your endpoint the same way it is added in this project.
 
