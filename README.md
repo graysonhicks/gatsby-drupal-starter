@@ -1,4 +1,4 @@
-# gatsby-drupal-default
+# gatsby-drupal-starter
 A barebones starter for getting up and running with Gatsby + Drupal.
 
 ## What to Expect
