@@ -47,8 +47,8 @@ If you think you understand the use of Gatsby `source` plugins, you can always t
 
 ## Further Reading
 For more info on Gatsby + Drupal:
-https://www.gatsbyjs.org/packages/gatsby-source-drupal/
-https://github.com/gatsbyjs/gatsby/tree/master/examples/using-drupal
+- https://www.gatsbyjs.org/packages/gatsby-source-drupal/
+- https://github.com/gatsbyjs/gatsby/tree/master/examples/using-drupal
 
 For a more detailed documentation of Gatsby, here is another starter I did:
-https://github.com/graysonhicks/gatsby-starter-skinny-docs
+- https://github.com/graysonhicks/gatsby-starter-skinny-docs
