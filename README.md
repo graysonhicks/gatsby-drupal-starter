@@ -16,7 +16,7 @@ After the initial install, if everything works, you can change the endpoint to p
 4. Run `gatsby develop`
 5. Go to `localhost:8000` and you should see a list of recipe titles
 
-## Customize Endpoint
+## Custom Endpoint
 
 The endpoint in this starter is `https://live-contentacms.pantheonsite.io/api` by default, which is a courtesy endpoint for learning about this process.  The endpoint where you want to retrieve your Drupal data is set in the [`gatsby-config.js`](gatsby-config.js) file.
 
@@ -27,6 +27,26 @@ Any endpoint that is defined as a `gatsby-source-drupal` in `gatsby-config.js` m
 1. Be a Drupal site (the `gatsby-source-drupal` plugin does special parsing with this assumption)
 2. Have the [Drupal JSONAPI module](https://www.drupal.org/project/jsonapi) installed.
 
-### Endpoint Information
+### Default Endpoint Data
 
-This repo does not control or cover how to build your Drupal endpoint.  To see the JSON that is returned, [hit the API directly](https://live-contentacms.pantheonsite.io/api) in your browser (a JSON viewer is helpful for readability here)
+This repo does not control or cover how to build your Drupal endpoint.  
+
+To see the JSON that is returned, [hit the API directly](https://live-contentacms.pantheonsite.io/api) in your browser (a JSON viewer is helpful for readability here)
+
+### Custom Endpoint Data
+
+When you choose to hit your own endpoint, [here](https://github.com/graysonhicks/gatsby-drupal-starter) is an example of a Drupal 8 endpoint with JSONAPI installed.  This example only has one `Article` as its content.
+
+## Custom Design
+
+This repo is basebones when it comes to styles.  You can leverage all of Gatsby's design patterns (use your Drupal data, Markdown, React components) along with whatever style library (vanilla CSS, styled-components, etc) to being building your site.
+
+If you think you understand the use of Gatsby `source` plugins, you can always try [another Gatsby starter](https://www.gatsbyjs.org/docs/gatsby-starters/#gatsby-starters) and add your endpoint the same way it is added in this project.
+
+## Further Reading
+For more info on Gatsby + Drupal:
+https://www.gatsbyjs.org/packages/gatsby-source-drupal/
+https://github.com/gatsbyjs/gatsby/tree/master/examples/using-drupal
+
+For a more detailed documentation of Gatsby, here is another starter I did:
+https://github.com/graysonhicks/gatsby-starter-skinny-docs
